@@ -1,0 +1,259 @@
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+11010  1.54283e-41   5.43966e-320
+43  6.02558e-44   -2.79968e+101
+0  0   4.21382e+206
+0  0   1.26843e-123
+0  0   1.56903e+102
+-721420288  -8.79609e+12   -3.54101e+300
+1792344064  1.28751e+26   nan
+644535552  8.14737e-16   2.84751e-306
+1428581077  1.14361e+13   6.953e-310
+-27974038  -7.08313e+37   4.77889e-299
+11010  1.54283e-41   5.43966e-320
+43  6.02558e-44   -2.79968e+101
+0  0   4.21382e+206
+0  0   1.26843e-123
+0  0   1.56903e+102
+-721420288  -8.79609e+12   -3.54101e+300
+1792344064  1.28751e+26   nan
+644535552  8.14737e-16   2.84751e-306
+1428581077  1.14361e+13   6.953e-310
+-27974038  -7.08313e+37   4.77889e-299
+11010  1.54283e-41   5.43966e-320
+43  6.02558e-44   -2.79968e+101
+0  0   4.21382e+206
+0  0   1.26843e-123
+0  0   1.56903e+102
+-721420288  -8.79609e+12   -3.54101e+300
+1792344064  1.28751e+26   nan
+644535552  8.14737e-16   2.84751e-306
+1428581077  1.14361e+13   6.953e-310
+-27974038  -7.08313e+37   4.77889e-299
+11010  1.54283e-41   5.43966e-320
+43  6.02558e-44   -2.79968e+101
+0  0   4.21382e+206
+0  0   1.26843e-123
+0  0   1.56903e+102
+-721420288  -8.79609e+12   -3.54101e+300
+1792344064  1.28751e+26   nan
+644535552  8.14737e-16   2.84751e-306
+1428581077  1.14361e+13   6.953e-310
+-27974038  -7.08313e+37   4.77889e-299
+11010  1.54283e-41   5.43966e-320
+43  6.02558e-44   -2.79968e+101
+0  0   4.21382e+206
+0  0   1.26843e-123
+0  0   1.56903e+102
+-721420288  -8.79609e+12   -3.54101e+300
+1792344064  1.28751e+26   nan
+644535552  8.14737e-16   2.84751e-306
+1428581077  1.14361e+13   6.953e-310
+-27974038  -7.08313e+37   4.77889e-299
+11010  1.54283e-41   5.43966e-320
+43  6.02558e-44   -2.79968e+101
+0  0   4.21382e+206
+0  0   1.26843e-123
+0  0   1.56903e+102
+-721420288  -8.79609e+12   -3.54101e+300
+1792344064  1.28751e+26   nan
+644535552  8.14737e-16   2.84751e-306
+1428581077  1.14361e+13   6.953e-310
+-27974038  -7.08313e+37   4.77889e-299
+11010  1.54283e-41   5.43966e-320
+43  6.02558e-44   -2.79968e+101
+0  0   4.21382e+206
+0  0   1.26843e-123
+0  0   1.56903e+102
+-721420288  -8.79609e+12   -3.54101e+300
+1792344064  1.28751e+26   nan
+644535552  8.14737e-16   2.84751e-306
+1428581077  1.14361e+13   6.953e-310
+-27974038  -7.08313e+37   4.77889e-299
+11010  1.54283e-41   5.43966e-320
+43  6.02558e-44   -2.79968e+101
+0  0   4.21382e+206
+0  0   1.26843e-123
+0  0   1.56903e+102
+-721420288  -8.79609e+12   -3.54101e+300
+1792344064  1.28751e+26   nan
+644535552  8.14737e-16   2.84751e-306
+1428581077  1.14361e+13   6.953e-310
+-27974038  -7.08313e+37   4.77889e-299
+11010  1.54283e-41   5.43966e-320
+43  6.02558e-44   -2.79968e+101
+0  0   4.21382e+206
+0  0   1.26843e-123
+0  0   1.56903e+102
+-721420288  -8.79609e+12   -3.54101e+300
+1792344064  1.28751e+26   nan
+644535552  8.14737e-16   2.84751e-306
+1428581077  1.14361e+13   6.953e-310
+-27974038  -7.08313e+37   4.77889e-299
+offset0   11010  1.54283e-41   5.43966e-320
+offset0   43  6.02558e-44   -2.79968e+101
+offset0   0  0   4.21382e+206
+offset0   0  0   1.26843e-123
+offset0   0  0   1.56903e+102
+offset0   -721420288  -8.79609e+12   -3.54101e+300
+offset0   1792344064  1.28751e+26   nan
+offset0   644535552  8.14737e-16   2.84751e-306
+offset0   1428581077  1.14361e+13   6.953e-310
+offset0   -27974038  -7.08313e+37   4.77889e-299
+offset1   11010  1.54283e-41   5.43966e-320
+offset1   43  6.02558e-44   -2.79968e+101
+offset1   0  0   4.21382e+206
+offset1   0  0   1.26843e-123
+offset1   0  0   1.56903e+102
+offset1   -721420288  -8.79609e+12   -3.54101e+300
+offset1   1792344064  1.28751e+26   nan
+offset1   644535552  8.14737e-16   2.84751e-306
+offset1   1428581077  1.14361e+13   6.953e-310
+offset1   -27974038  -7.08313e+37   4.77889e-299
+offset2   11010  1.54283e-41   5.43966e-320
+offset2   43  6.02558e-44   -2.79968e+101
+offset2   0  0   4.21382e+206
+offset2   0  0   1.26843e-123
+offset2   0  0   1.56903e+102
+offset2   -721420288  -8.79609e+12   -3.54101e+300
+offset2   1792344064  1.28751e+26   nan
+offset2   644535552  8.14737e-16   2.84751e-306
+offset2   1428581077  1.14361e+13   6.953e-310
+offset2   -27974038  -7.08313e+37   4.77889e-299
+offset0
+offset0
+offset0
+offset0
+offset0
+offset0
+offset0
+offset0
+offset0
+offset0
+offset1
+offset1
+offset1
+offset1
+offset1
+offset1
+offset1
+offset1
+offset1
+offset1
+offset2
+offset2
+offset2
+offset2
+offset2
+offset2
+offset2
+offset2
+offset2
+offset2
+offset0   11010  1.54283e-41   5.43966e-320
+offset0   43  6.02558e-44   -2.79968e+101
+offset0   0  0   4.21382e+206
+offset0   0  0   1.26843e-123
+offset0   0  0   1.56903e+102
+offset0   -721420288  -8.79609e+12   -3.54101e+300
+offset0   1792344064  1.28751e+26   nan
+offset0   644535552  8.14737e-16   2.84751e-306
+offset0   1428581077  1.14361e+13   6.953e-310
+offset0   -27974038  -7.08313e+37   4.77889e-299
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras
+pidaras  0
+pidaras  0
+Temperature of heater is 0
+Temperature of heater is 0
+Temperature of heater is 0
+Temperature of heater is 0
+Temperature of heater is 0
+Temperature of heater is 0
+Temperature of heater is 0
+Temperature of heater is 0
+Temperature of heater is 0
+Temperature of heater is 0
+Temperature of heater is 0
+Temperature of heater is 0
+Temperature of heater is 0
+Temperature of heater is 0
+Temperature of heater is 0
+Temperature of heater is 0
+Temperature of heater is 0
+Temperature of heater is 0
+Temperature of heater is 0
+Temperature of heater is 0
+Temperature of heater is 0  Tue Jan 17 13:22:25 2023
+
+Temperature of heater is 0  Tue Jan 17 13:29:14 2023
+
+Temperature of heater is 0  Thu Jan 19 10:20:06 2023
+
+Temperature of heater is 0  Thu Jan 19 13:58:35 2023
+
+Temperature of heater is 0  Thu Jan 19 13:59:47 2023
+
+Temperature of heater is 0  Thu Jan 19 14:37:36 2023
+
+Temperature of heater is 0  Thu Jan 19 14:49:32 2023
+
+Temperature of heater is 0  Thu Jan 19 14:50:44 2023
+
+Temperature of heater is 0  Thu Jan 19 14:51:03 2023
+
+Temperature of heater is 0  Thu Jan 19 14:51:17 2023
+
+Temperature of heater is 0  Thu Jan 19 14:51:29 2023
+
+Temperature of heater is 0  Thu Jan 19 14:51:40 2023
+
+Temperature of heater is 0  Thu Jan 19 14:52:04 2023
+
+Temperature of heater is 0  Thu Jan 19 14:52:24 2023
+

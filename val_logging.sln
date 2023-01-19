@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "val_logging", "val_logging\val_logging.vcxproj", "{E808B3C0-4DBE-4380-85E1-A3D284EA4EB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E808B3C0-4DBE-4380-85E1-A3D284EA4EB4}.Debug|x64.ActiveCfg = Debug|x64
+		{E808B3C0-4DBE-4380-85E1-A3D284EA4EB4}.Debug|x64.Build.0 = Debug|x64
+		{E808B3C0-4DBE-4380-85E1-A3D284EA4EB4}.Debug|x86.ActiveCfg = Debug|Win32
+		{E808B3C0-4DBE-4380-85E1-A3D284EA4EB4}.Debug|x86.Build.0 = Debug|Win32
+		{E808B3C0-4DBE-4380-85E1-A3D284EA4EB4}.Release|x64.ActiveCfg = Release|x64
+		{E808B3C0-4DBE-4380-85E1-A3D284EA4EB4}.Release|x64.Build.0 = Release|x64
+		{E808B3C0-4DBE-4380-85E1-A3D284EA4EB4}.Release|x86.ActiveCfg = Release|Win32
+		{E808B3C0-4DBE-4380-85E1-A3D284EA4EB4}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1125DD00-4AD7-4397-B76F-7D908E492440}
+	EndGlobalSection
+EndGlobal
