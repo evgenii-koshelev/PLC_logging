@@ -15,6 +15,12 @@
 using namespace std;
 
 
+
+
+
+
+
+
 TS7Client* Client;                                                          // Creating PLC client
 byte output_ON[1] = { 1 };                                                  // Data for PLC output to ON
 byte output_OFF[1] = { 0 };                                                 // Data for PLC output to OFF
@@ -58,7 +64,7 @@ void plc_connect()                                                          // C
 
 	catch (const std::exception& err)
 	{
-		cout << "Error!!!" << std::endl;
+		cout << "Error!!!" << endl;
 	}
 
 
@@ -119,10 +125,58 @@ void plc_disconnect()                                                       // D
 
 
 
+
+void DBconnect()
+{
+	cout << "Connecting to SQL database...." << endl;
+
+
+	cout << "Connected to database" << endl;
+
+
+}
+
+
+
+void DBadd()
+{
+
+	cout << "Added to database" << endl;
+
+
+}
+
+
+// /*
+
+void BDwrite()
+{
+	while (1)
+	{
+		DBconnect();
+		DBadd();
+		
+		this_thread::sleep_for(chrono::seconds(1));		// waiting 
+	}
+	
+
+
+}
+
+
+// */
+
+
+
+
+
 int main()
 {
-	setlocale(LC_ALL, "ru");
+	
 
+	std::thread thr(BDwrite);								// consider opp to run thread after successfull plc data read
+	printf("run DB_writing\n");
+	thr.detach();											// this case no need to wait finish of this th. Use join or smtnk else in othes case
 
 
 	while (1)
@@ -134,7 +188,14 @@ int main()
 
 		cout << "next Temp check in 60 sec" << endl;
 
-		this_thread::sleep_for(chrono::seconds(60));		// waiting 
+
+
+		this_thread::sleep_for(chrono::seconds(2));		// waiting 
+
+
+
+
+
 
 		
 		// system("PAUSE");									//waiting intill key pressed

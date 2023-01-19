@@ -257,3 +257,173 @@ Temperature of heater is 0  Thu Jan 19 14:52:04 2023
 
 Temperature of heater is 0  Thu Jan 19 14:52:24 2023
 
+Temperature of heater is 0  Thu Jan 19 15:55:03 2023
+
+Temperature of heater is 0  Thu Jan 19 15:55:51 2023
+
+Temperature of heater is 0  Thu Jan 19 16:30:15 2023
+
+Temperature of heater is 0  Thu Jan 19 16:36:04 2023
+
+Temperature of heater is 0  Thu Jan 19 16:38:08 2023
+
+Temperature of heater is 0  Thu Jan 19 16:38:54 2023
+
+Temperature of heater is 0  Thu Jan 19 16:41:08 2023
+
+Temperature of heater is 0  Thu Jan 19 16:41:20 2023
+
+Temperature of heater is 0  Thu Jan 19 16:41:37 2023
+
+Temperature of heater is 0  Thu Jan 19 16:42:21 2023
+
+Temperature of heater is 0  Thu Jan 19 16:42:31 2023
+
+Temperature of heater is 0  Thu Jan 19 16:42:33 2023
+
+Temperature of heater is 0  Thu Jan 19 16:42:34 2023
+
+Temperature of heater is 0  Thu Jan 19 16:42:36 2023
+
+Temperature of heater is 0  Thu Jan 19 16:42:37 2023
+
+Temperature of heater is 0  Thu Jan 19 16:42:39 2023
+
+Temperature of heater is 0  Thu Jan 19 16:42:40 2023
+
+Temperature of heater is 0  Thu Jan 19 16:42:42 2023
+
+Temperature of heater is 0  Thu Jan 19 16:42:43 2023
+
+Temperature of heater is 0  Thu Jan 19 16:42:45 2023
+
+Temperature of heater is 0  Thu Jan 19 16:43:48 2023
+
+Temperature of heater is 0  Thu Jan 19 16:43:49 2023
+
+Temperature of heater is 0  Thu Jan 19 16:43:51 2023
+
+Temperature of heater is 0  Thu Jan 19 16:43:52 2023
+
+Temperature of heater is 0  Thu Jan 19 16:44:27 2023
+
+Temperature of heater is 0  Thu Jan 19 16:44:32 2023
+
+Temperature of heater is 0  Thu Jan 19 16:44:59 2023
+
+Temperature of heater is 0  Thu Jan 19 16:45:00 2023
+
+Temperature of heater is 0  Thu Jan 19 16:45:00 2023
+
+Temperature of heater is 0  Thu Jan 19 16:45:01 2023
+
+Temperature of heater is 0  Thu Jan 19 16:45:01 2023
+
+Temperature of heater is 0  Thu Jan 19 16:45:02 2023
+
+Temperature of heater is 0  Thu Jan 19 16:45:02 2023
+
+Temperature of heater is 0  Thu Jan 19 16:45:03 2023
+
+Temperature of heater is 0  Thu Jan 19 16:45:03 2023
+
+Temperature of heater is 0  Thu Jan 19 16:45:04 2023
+
+Temperature of heater is 0  Thu Jan 19 16:45:04 2023
+
+Temperature of heater is 0  Thu Jan 19 16:45:05 2023
+
+Temperature of heater is 0  Thu Jan 19 16:45:06 2023
+
+Temperature of heater is 0  Thu Jan 19 16:45:06 2023
+
+Temperature of heater is 0  Thu Jan 19 16:46:40 2023
+
+Temperature of heater is 0  Thu Jan 19 16:47:19 2023
+
+Temperature of heater is 0  Thu Jan 19 16:47:31 2023
+
+Temperature of heater is 0  Thu Jan 19 16:47:32 2023
+
+Temperature of heater is 0  Thu Jan 19 16:47:32 2023
+
+Temperature of heater is 0  Thu Jan 19 16:47:33 2023
+
+Temperature of heater is 0  Thu Jan 19 16:47:33 2023
+
+Temperature of heater is 0  Thu Jan 19 16:48:09 2023
+
+Temperature of heater is 0  Thu Jan 19 16:49:47 2023
+
+Temperature of heater is 0  Thu Jan 19 16:50:09 2023
+
+Temperature of heater is 0  Thu Jan 19 16:50:11 2023
+
+Temperature of heater is 0  Thu Jan 19 16:50:14 2023
+
+Temperature of heater is 0  Thu Jan 19 16:50:16 2023
+
+Temperature of heater is 0  Thu Jan 19 16:50:19 2023
+
+Temperature of heater is 0  Thu Jan 19 16:50:21 2023
+
+Temperature of heater is 0  Thu Jan 19 16:50:24 2023
+
+Temperature of heater is 0  Thu Jan 19 16:51:39 2023
+
+Temperature of heater is 0  Thu Jan 19 16:53:45 2023
+
+Temperature of heater is 0  Thu Jan 19 16:53:48 2023
+
+Temperature of heater is 0  Thu Jan 19 16:54:04 2023
+
+Temperature of heater is 0  Thu Jan 19 16:54:06 2023
+
+Temperature of heater is 0  Thu Jan 19 16:54:09 2023
+
+Temperature of heater is 0  Thu Jan 19 16:54:11 2023
+
+Temperature of heater is 0  Thu Jan 19 16:55:15 2023
+
+Temperature of heater is 0  Thu Jan 19 16:55:18 2023
+
+Temperature of heater is 0  Thu Jan 19 16:55:20 2023
+
+Temperature of heater is 0  Thu Jan 19 16:58:34 2023
+
+Temperature of heater is 0  Thu Jan 19 16:58:37 2023
+
+Temperature of heater is 0  Thu Jan 19 16:58:39 2023
+
+Temperature of heater is 0  Thu Jan 19 16:58:42 2023
+
+Temperature of heater is 0  Thu Jan 19 16:58:44 2023
+
+Temperature of heater is 0  Thu Jan 19 16:58:47 2023
+
+Temperature of heater is 0  Thu Jan 19 16:58:49 2023
+
+Temperature of heater is 0  Thu Jan 19 16:58:58 2023
+
+Temperature of heater is 0  Thu Jan 19 17:02:15 2023
+
+Temperature of heater is 0  Thu Jan 19 17:02:18 2023
+
+Temperature of heater is 0  Thu Jan 19 17:02:20 2023
+
+Temperature of heater is 0  Thu Jan 19 17:02:23 2023
+
+Temperature of heater is 0  Thu Jan 19 17:02:25 2023
+
+Temperature of heater is 0  Thu Jan 19 17:02:28 2023
+
+Temperature of heater is 0  Thu Jan 19 17:03:22 2023
+
+Temperature of heater is 0  Thu Jan 19 17:03:24 2023
+
+Temperature of heater is 0  Thu Jan 19 17:03:52 2023
+
+Temperature of heater is 0  Thu Jan 19 17:03:55 2023
+
+Temperature of heater is 0  Thu Jan 19 17:03:57 2023
+
