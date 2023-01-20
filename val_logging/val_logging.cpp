@@ -1,5 +1,6 @@
 ﻿#define _CRT_SECURE_NO_WARNINGS		
 //
+//#include "stdafx.h"
 #include <iostream>
 #include <string>
 #include <thread>
@@ -10,12 +11,23 @@
 #include "s7.h"  
 #include "s7.cpp"  
 
+
+
 #include "mysql_connection.h"
+#include <stdlib.h>
+#include <cppconn/driver.h>
+#include <cppconn/exception.h>
+#include <cppconn/prepared_statement.h>
+
+
+//for demonstration only. never save your password in the code!
+const string server = "127.0.0.1:3306";
+const string username = "root";
+const string password = "1111";
+
+
 
 using namespace std;
-
-
-
 
 
 
@@ -134,6 +146,57 @@ void DBconnect()
 	cout << "Connected to database" << endl;
 
 
+
+
+	sql::Driver* driver;
+	sql::Connection* con;
+	sql::Statement* stmt;
+	sql::PreparedStatement* pstmt;
+
+	try
+	{
+		driver = get_driver_instance();
+		con = driver->connect(server, username, password);
+	}
+	catch (sql::SQLException e)
+	{
+		cout << "Could not connect to server. Error message: " << e.what() << endl;
+		//system("pause");
+		exit(1);
+	}
+
+	//please create database "quickstartdb" ahead of time
+	con->setSchema("quickstartdb");
+
+	stmt = con->createStatement();
+	stmt->execute("DROP TABLE IF EXISTS inventory");
+	cout << "Finished dropping table (if existed)" << endl;
+	stmt->execute("CREATE TABLE inventory (id serial PRIMARY KEY, name VARCHAR(50), quantity INTEGER);");
+	cout << "Finished creating table" << endl;
+	delete stmt;
+
+	pstmt = con->prepareStatement("INSERT INTO inventory(name, quantity) VALUES(?,?)");
+	pstmt->setString(1, "banana");
+	pstmt->setInt(2, 150);
+	pstmt->execute();
+	cout << "One row inserted." << endl;
+
+	pstmt->setString(1, "orange");
+	pstmt->setInt(2, 154);
+	pstmt->execute();
+	cout << "One row inserted." << endl;
+
+	pstmt->setString(1, "apple");
+	pstmt->setInt(2, 100);
+	pstmt->execute();
+	cout << "One row inserted." << endl;
+
+	delete pstmt;
+	delete con;
+
+
+
+
 }
 
 
@@ -175,8 +238,14 @@ int main()
 	
 
 	std::thread thr(BDwrite);								// consider opp to run thread after successfull plc data read
-	printf("run DB_writing\n");
+	//printf("run DB_writing\n");
 	thr.detach();											// this case no need to wait finish of this th. Use join or smtnk else in othes case
+
+
+
+	
+	
+
 
 
 	while (1)
