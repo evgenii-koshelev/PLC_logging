@@ -20,10 +20,12 @@
 #include <cppconn/prepared_statement.h>
 
 
+
+
 //for demonstration only. never save your password in the code!
-const string server = "127.0.0.1:3306";
-const string username = "root";
-const string password = "1111";
+const string server = "188.65.208.80/186267_somsom";
+const string username = "";
+const string password = "";
 
 
 
@@ -142,32 +144,125 @@ void DBconnect()
 {
 	cout << "Connecting to SQL database...." << endl;
 
-
-	cout << "Connected to database" << endl;
-
+	
 
 
+	cout << "Let's have MySQL count from 10 to 1..." << endl;
+	try {
+		sql::Driver* driver;
+		sql::Connection* con;
+		sql::Statement* stmt;
+		sql::ResultSet* res;
+		sql::PreparedStatement* pstmt;
+		/* Create a connection */
+		driver = get_driver_instance();
+		con = driver->connect(server, username, password);
+
+		/* Connect to the MySQL test database */
+		//con->setSchema("186267_somsom");
+		//stmt = con->createStatement();
+		//stmt->execute("186267_somsom");
+		//delete stmt;
+
+		
+		/* Select in ascending order */
+		pstmt = con->prepareStatement("SELECT valve_mode FROM `som`");
+		res = pstmt->executeQuery();
+		
+		/* Fetch in reverse = descending order! */
+		res->afterLast();
+		
+
+		/* Fetch in reverse = descending order! */
+		res->previous();
+		cout << res->getInt(1) <<" valve mode is " << endl;
+		
+
+
+
+		//cout << res->getInt(1) << endl;
+		while (res->previous())
+			cout << res->getInt(1)<< endl;
+		delete res;
+		delete pstmt;
+		delete con;
+
+	
+}
+catch (sql::SQLException& e) {
+	cout << "# ERR: SQLException in " << __FILE__;
+	cout << "(" << __FUNCTION__ << ") on line "		<< __LINE__ << endl;
+	cout << "# ERR: " << e.what();
+	cout << " (MySQL error code: " << e.getErrorCode();
+	cout << ", SQLState: " << e.getSQLState() << 	" )" << endl;
+}
+cout << endl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	/*
 
 	sql::Driver* driver;
 	sql::Connection* con;
 	sql::Statement* stmt;
 	sql::PreparedStatement* pstmt;
 
+	
+	
 	try
 	{
 		driver = get_driver_instance();
 		con = driver->connect(server, username, password);
-	}
+
+	} 
 	catch (sql::SQLException e)
 	{
 		cout << "Could not connect to server. Error message: " << e.what() << endl;
 		//system("pause");
 		exit(1);
 	}
-
+	
+	cout << "Connected to database" << endl;
+	
 	//please create database "quickstartdb" ahead of time
-	con->setSchema("quickstartdb");
+	con->setSchema("186267_somsom");
 
+	//stmt = con->createStatement();
+
+
+
+	
+
+
+	/*
 	stmt = con->createStatement();
 	stmt->execute("DROP TABLE IF EXISTS inventory");
 	cout << "Finished dropping table (if existed)" << endl;
@@ -194,6 +289,7 @@ void DBconnect()
 	delete pstmt;
 	delete con;
 
+	*/
 
 
 
@@ -238,7 +334,7 @@ int main()
 	
 
 	std::thread thr(BDwrite);								// consider opp to run thread after successfull plc data read
-	//printf("run DB_writing\n");
+	
 	thr.detach();											// this case no need to wait finish of this th. Use join or smtnk else in othes case
 
 
@@ -250,11 +346,12 @@ int main()
 
 	while (1)
 	{
+		/*
 		plc_connect();										// conneting to plc
 		readData_real_from_BD();							// reading temperature		
 		plc_disconnect();									// disconnecting 
 		add_to_file();										// adding to the file data and time
-
+		*/
 		cout << "next Temp check in 60 sec" << endl;
 
 
