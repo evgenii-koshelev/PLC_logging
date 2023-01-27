@@ -26,8 +26,8 @@
 
 																			//db for storing data
 const string server = "188.65.208.80/186267_somsom";
-const string username = " ";
-const string password = " ";
+const string username = "";
+const string password = "";
 
 
 
@@ -117,16 +117,24 @@ void add_to_file() {
 	cout << "adding to file...." << endl;
 
 
-	
-	time_t now = time(0);														// current date/time based on current system
-	char* dt = ctime(&now);														// convert now to string form
+
+
+	time_t rawtime;																// current date/time based on current system
+	tm* timeinfo;																// convert now to string form
+	char buffer[80];
+	time(&rawtime);
+	timeinfo = localtime(&rawtime);
+	strftime(buffer, 80, "%Y-%m-%d %H:%M:%S", timeinfo);
+	//puts(buffer);
+	//cout << buffer << "lala" << endl;
+
 
 	//cout << "The local date and time is: " << dt << endl;
 
 
 	
 	file.open("test.txt", std::ios::out | std::ios::app);						// open file
-	file << line <<  Temp << "  " << dt << std::endl;							// writing file
+	file << line <<  Temp << "  " << buffer << std::endl;							// writing file
 
 	cout << "added to file!" << endl;
 
@@ -243,8 +251,21 @@ void DB_sql_add()
 	//con->setSchema("heat_exchanger");
 	//stmt = con->createStatement();
 
-	time_t now2 = time(0);														// current date/time based on current system
-	char* dt2 = ctime(&now2);														// convert now to string form
+	
+
+	time_t rawtime;																// current date/time based on current system
+	tm* timeinfo;																// convert now to string form
+	char buffer[80];
+	time(&rawtime);
+	timeinfo = localtime(&rawtime);
+	strftime(buffer, 80, "%Y-%m-%d %H:%M:%S", timeinfo);
+	//puts(buffer);
+	//cout << buffer<< endl;
+
+
+
+
+
 
 
 	/*
@@ -257,8 +278,8 @@ void DB_sql_add()
 	*/
 
 	pstmt = con->prepareStatement("INSERT INTO heat_exchanger(date, temperature) VALUES(?,?)");
-	pstmt->setString(1, dt2);
-	pstmt->setDouble(2, Temp);
+	pstmt->setString(1, buffer);
+	pstmt->setDouble(2, Temp); //2, Temp
 	pstmt->execute();
 	cout << "One row inserted." << endl;
 
@@ -294,7 +315,7 @@ int main()
 
 	while (1)
 	{
-		//cout << "kal" << endl;
+		//cout << " " << endl;
 		
 		if (plc_connect() == 0) {								//if plc connected
 			
@@ -304,24 +325,24 @@ int main()
 			add_to_file();										// adding to the file data and time
 
 			
-			std::thread thr(DB_sql_add);						// consider opp to run thread after successfull plc data read
-			thr.detach();										// this case no need to wait finish of this th. Use join or smtnk else in othes case
-		
+			//std::thread thr(DB_sql_add);						// consider opp to run thread after successfull plc data read
+			//thr.detach();										// this case no need to wait finish of this th. Use join or smtnk else in othes case
+			DB_sql_add();
+
+
+
 		} 	else {
 			cout << "Error occured" << endl;
 		}
 		
 		
 		
-		
-		cout << "next Temp check in 70 sec" << endl;
-
-
-		this_thread::sleep_for(chrono::seconds(70));				// waiting 
-
-
 
 		
+
+		cout << "next Temp check in 300 sec" << endl;
+
+		this_thread::sleep_for(chrono::seconds(300));				// waiting 
 
 
 		
